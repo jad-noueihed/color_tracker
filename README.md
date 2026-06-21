@@ -46,7 +46,7 @@ Clone into the `src` folder of a ROS2 workspace and build:
 
 ```bash
 cd ~/ros2_ws/src
-git clone https://github.com/<your-username>/color_tracker.git
+git clone https://github.com/jad-noueihed/color_tracker.git
 cd ~/ros2_ws
 colcon build --packages-select color_tracker --symlink-install
 source install/setup.bash
